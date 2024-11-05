@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        title: ["Libre Bodoni","sans"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
